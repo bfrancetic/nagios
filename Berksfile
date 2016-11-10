@@ -2,6 +2,8 @@ source 'https://supermarket.chef.io'
 
 metadata
 
+cookbook 'chef_nginx'
+
 group :integration do
   cookbook 'yum'
   cookbook 'apt'
