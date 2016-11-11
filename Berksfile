@@ -3,6 +3,7 @@ source 'https://supermarket.chef.io'
 metadata
 
 cookbook 'chef_nginx'
+cookbook 'nginx_simplecgi', git: 'https://github.com/bfrancetic/nginx_simplecgi'
 
 group :integration do
   cookbook 'yum'
